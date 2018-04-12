@@ -1,4 +1,4 @@
 # Dockerfile
-FROM tomcat:8
+FROM tomcat
 
 ADD dist/*.war /usr/local/tomcat/webapps/
