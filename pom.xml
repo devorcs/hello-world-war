@@ -37,6 +37,20 @@
 				      <skipStaging>true</skipStaging>
 				   </configuration>
 			</plugin>
+			
 		</plugins>
+		
+		<distributionManagement>
+		<repository>
+			<id>project-release</id>
+			<name>project-release</name>
+			<url>https://justfortest.info/nexus/repository/project-release</url>
+		</repository>
+		<snapshotRepository>
+			<id>project-snapshot</id>
+			<name>project-snapshot</name>
+			<url>https://justfortest.info/nexus/repository/project-snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>	
 	</build>
 </project>
