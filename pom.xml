@@ -32,7 +32,7 @@
 				      </execution>
 				 </executions>
 				   <configuration>
-				      <serverId>nexus</serverId>
+				      <serverId>project-release</serverId>
 				      <nexusUrl>https://justfortest.info/nexus/</nexusUrl>
 				      <skipStaging>true</skipStaging>
 				   </configuration>
